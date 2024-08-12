@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário elaborado</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="name">Nome:</label>
+            <input type="text">
+            <br>
+            <br>
+            <label for="endereco">Endereço:</label>
+            <input type="text">
+            <br>
+            <br>
+            <label for="cidade">Cidade:</label>
+            <input type="text">
+            <br>
+            <br>
+            <label for="estado">Estado:</label>
+            <select name="estados">
+                <option value="opcao1">São Paulo</option>
+                <option value="opcao2">Espiríto Santo</option>
+                <option value="opcao3">Minas Gerais</option>
+                <option value="opcao4">Bahia</option>
+            </select>
+             
+        </fieldset>
+        <br>
+        <br>
+
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        <label for="escolha">Natureza do Cargo</label>
+        <br>
+        <input type="radio" name="escolha" value="" > Gerência
+        <input type="radio" name="escolha" value="elétrica"> Financeiro
+        <input type="radio" name="escolha" value="DDS" checked> Recepção
+        <input type="radio" name="escolha" value="DDS" checked> Administrativo
+        <input type="radio" name="escolha" value="DDS" checked> Jurídico
+        <br>
+        <br>
+
+        <label for="escolha">Área de interesse</label>
+        <br>
+        <input type="checkbox" name="tec1" value="computacao"> Computação
+        <input type="checkbox" name="tec2" value="biologia"> Biologia
+        <input type="checkbox" name="tec3" value="meio ambiente"> Meio Ambiente
+        <input type="checkbox" name="tec4" value="engenharia"> Engenharia
+        <input type="checkbox" name="tec5" value="historia"> Historia
+        <br>
+        <br>
+        <label for="mini curriculo">Mini-curriculo:</label>
+    <textarea name="mini curriculo" placeholder="Insira um exto..." rows="6" cols="50"></textarea>
+
+    </fieldset>
+    <br>
+    <br>
+    <input type="submit" value="Enviar">
+    <input type="Reset" value="Limpar">
+
+
+
+    </form>
+    
+</body>
+</html>
