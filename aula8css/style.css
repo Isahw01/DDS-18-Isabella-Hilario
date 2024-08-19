@@ -1,0 +1,61 @@
+body{
+    background-color:rgb(116, 116, 116);
+    height: 600px;
+}
+
+#tudo{
+    background-color: rgb(13, 9, 243);
+    padding: 5px;
+    display: inline-block;
+}
+
+
+.quad{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+#quad1{
+    background-color:rgb(255, 0, 0) ;
+   /* flex-shrink: 0; */
+
+}
+
+#quad2{
+    background-color:rgb(255, 251, 0) ;
+   /* flex-grow: 0; */
+}
+
+#quad3{
+    background-color: green;
+    
+}
+
+#container{
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+   /* align-items: center; */
+   /* align-content: center; */
+
+}
+
+#container2{
+    background-color: aqua;
+    display: grid;
+    height: 600px;
+    /* grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto; */
+    grid-template: 60vh auto / auto 20% auto;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center; 
+    align-content: center; 
+
+}

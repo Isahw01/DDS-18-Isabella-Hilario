@@ -17,6 +17,10 @@ body{
     font-weight: 650;
     overflow: hidden;
 }
+ img{
+    width: 55px;
+    background-color: rgb(225, 158, 252);
+ }
 
 .menu{
     list-style: none;
