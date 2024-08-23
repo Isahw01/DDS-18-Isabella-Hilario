@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Cadastro</title>
+    <link rel="stylesheet" href="cadastrostyle.css">
+</head>
+<body>
+    <!-- Menu com imagem -->
+    <header>
+        <nav class="menu">
+            <img src="./logorodape.png" alt="Logo" class="logo">
+            <button class="sair" onclick="window.location.href='logout.html'">Sair</button>
+        </nav>
+    </header>
+    
+    <!-- Seção de informações de contato -->
+    <section class="info">
+        <div class="contact-info">
+            <p>Telefone: (11) 1234-5678</p>
+            <p>Email: contato@exemplo.com</p>
+            <p>Site: www.exemplo.com</p>
+        </div>
+    </section>
+ 
+    <br>
+
+    <!-- Formulário de cadastro -->
+    <section class="form-section">
+        <form action="submit_form.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone" required>
+
+            <label for="responsavel-financeiro">Nome do Responsável Financeiro:</label>
+            <input type="text" id="responsavel-financeiro" name="responsavel_financeiro" required>
+
+            <label for="cpf-responsavel">CPF do Responsável Financeiro:</label>
+            <input type="text" id="cpf-responsavel" name="cpf_responsavel" required>
+
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <br>
+</body>
+</html>
