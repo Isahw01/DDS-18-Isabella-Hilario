@@ -6,6 +6,12 @@
     font-family: Arial, sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Define altura mínima da viewport */
+}
+
 /* Estilo do cabeçalho */
 header {
     background-color: #003366;
@@ -49,8 +55,12 @@ header {
 
 /* Estilo do conteúdo principal */
 main {
+    flex: 1; /* Permite que o main cresça e ocupe o espaço disponível */
     padding: 2rem;
     background-color: #f4f4f4;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
 }
 
 .curso-detalhes {
@@ -111,11 +121,6 @@ footer {
     color: #fff;
     padding: 1rem;
     text-align: center;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
 }
 
 /* Imagens e links */
