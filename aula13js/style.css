@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(164, 87, 236);
+    background-color: rgb(45, 13, 104) ;
+}
+
+
+body{
+    background-color: rgb(45, 13, 104);
+}
+
+.material-symbols-outlined {
+  color: white;
+  font-size: 100px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+a{
+    text-decoration: none;
+    color: rgb(147, 248, 248);
+}
+
+#caixa{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 3px white solid;
+    border-radius: 7px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputForm{
+    width: 250px;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding-left: 7px;
+    border: none;
+    height: 35px;
+    margin-bottom: 15px;
+}
+
+.inputBotao{
+    width: 90px;
+    color: aliceblue;
+    background-color:blueviolet;
+    border-radius: 15px;
+    border: none;
+    height: 35px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+input:focus{
+    outline-color: blueviolet;
+}
+
+input::placeholder{
+    color: black;
+}
